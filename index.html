@@ -5,25 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      body{
+        background-color: blueviolet;
+      }
+
+      h1{
+        text-align: center;
+      }
+
+      div.nome{
+        text-align: center;
+      }
+
+      img.fotoMinha{
+        width: 250px;
+        border-radius: 150px;
+      }
+
+      a{
+        color: black;
+        text-decoration: none;
+      }
+
+      li#negrito{
+        font-weight: 600;
+      }
+      
+      .fotosRedes{
+        width: 100px;
+      }
+    </style>
   </head>
-  <body style="background-color: blueviolet;">
+  <body >
 
-      <h1 style="text-align: center;">Yuri Soares de Queiroz</h1>
+      <h1>Yuri Soares de Queiroz</h1>
 
-   <div style="text-align: center;">
-        <img id="foto" src="imagens/yuri3.jpeg" alt="foto de perfil" width="250px" style="border-radius: 150px;">
+   <div class="nome">
+        <img id="foto" class="fotoMinha" src="imagens/yuri3.jpeg" alt="foto de perfil">
     </div>
 
     <div> 
-    <h1 style="text-align: center;"><a href="#foto" style="color: black; text-decoration: none;">Aluno</a> <a href="https://www.betrybe.com/" target="_blank" style="color: black; text-decoration: none;">Trybe</a> </h1><br>
+    <h1><a href="#foto">Aluno</a> <a href="https://www.betrybe.com/" target="_blank">Trybe</a> </h1><br>
     </div>
 
     <h2>índice</h2>
 
     <ul>
-        <li><a href="#biografia" style="color: black; text-decoration: none;">Biografia</a></li>
-        <li><a href="#habilidades" style="color: black; text-decoration: none;">Habilidades</a></li>
-        <li><a href="#curiosidades" style="color: black; text-decoration: none;">Curiosidades</a></li>
+        <li><a href="#biografia">Biografia</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#curiosidades">Curiosidades</a></li>
     </ul>
 
     <h2 id="biografia">Biografia</h2>
@@ -34,7 +65,7 @@
     <h2 id="habilidades">Habilidades</h2>
 
     <ol>
-        <li><strong>HTML</strong></li>
+        <li id="negrito">HTML</li>
         <li>CSS</li>
     </ol>
 
@@ -50,17 +81,17 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptates enim facilis totam delectus vero possimus unde animi esse, eum laborum, quo eligendi aut facere distinctio autem dolorum suscipit! Reiciendis.
     </p><br><br>
 
-    <div style="text-align: center;">
+    <div class="nome">
         <a href="https://www.linkedin.com/in/yuri-queiroz-16b41111b/" target="_blank">
-        <img src="imagens/f705441ceeb70b9920ce6c37d80f5603-cone-redondo-distorcido-do-linkedin.png" alt="logo linkedin" width="100px">
+        <img class="fotosRedes" src="imagens/f705441ceeb70b9920ce6c37d80f5603-cone-redondo-distorcido-do-linkedin.png" alt="logo linkedin">
         </a>
 
         <a href="https://www.instagram.com/yuriqueirooz/" target="_blank">
-        <img src="imagens/instagram.png" alt="logo do instagram" width="100px">
+        <img class="fotosRedes" src="imagens/instagram.png" alt="logo do instagram">
         </a>
 
         <a href="https://github.com/Yuri-Queiroz" target="_blank">
-        <img src="imagens/logo_github_icon_143196.png" alt="logo do github" width="100px">
+        <img class="fotosRedes" src="imagens/logo_github_icon_143196.png" alt="logo do github">
         </a>
     </div>
         
