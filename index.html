@@ -5,91 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-      body{
-        background-color: blueviolet;
-      }
-
-      h1{
-        text-align: center;
-      }
-
-      div.nome{
-        text-align: center;
-      }
-
-      img.fotoMinha{
-        width: 250px;
-        border-radius: 150px;
-      }
-
-      a{
-        color: black;
-        text-decoration: none;
-      }
-
-      li#negrito{
-        font-weight: 600;
-      }
-      
-      .fotosRedes{
-        width: 100px;
-      }
-
-      .fonte{
-        font-family: "Times New Roman", Times, serif;
-      }
-
-      .tamanho{
-        font-size: 2em;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body >
+    
+    <div id="principal"> <!--INICIO DA DIV PRINCIPAL-->
 
-      <h1 class="fonte">Yuri Soares de Queiroz</h1>
+      <div id="topo"> <!--INICIO DA DIV TOPO-->
 
-   <div class="nome">
-        <img id="foto" class="fotoMinha" src="imagens/yuri3.jpeg" alt="foto de perfil">
-    </div>
+        <div id="eu"> <!--INICIO DA DIV EU-->
+          <h1 id="topo-cabe">Yuri Soares de Queiroz</h1><br><br>
 
-    <div> 
-    <h1><a href="#foto">Aluno</a> <a href="https://www.betrybe.com/" target="_blank">Trybe</a> </h1><br>
-    </div>
+          <div id="minha-foto"> <!--INICIO DA DIV MINHA-FOTO-->
+            <img src="imagens/yuri3.jpeg" alt="Minha foto">
+          </div> <!--FIM DA DIV MINHA-FOTO-->
 
-    <h2>índice</h2>
+          <div id="bio"> <!--INICIO DA BIO-->
+            <h2>Biografia</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+              Nemo dolores quia minus, ipsam facilis harum reiciendis distinctio labore officiis sequi nam
+              consequuntur voluptatum magni animi asperiores praesentium quas ad nostrum.</p>
+          </div> <!--FIM DA BIO-->
 
-    <ul>
-        <li><a href="#biografia">Biografia</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#curiosidades">Curiosidades</a></li>
-    </ul>
+          <div id="limpar"></div>
+        </div><!--FIM DA DIV EU-->
 
-    <h2 id="biografia" class="fonte">Biografia</h2>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et nulla, veniam blanditiis dolor itaque iste saepe vel consequuntur eveniet quos dolorum vitae. Modi minima iste ut sunt quos a eveniet.
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur consequuntur quas placeat necessitatibus possimus obcaecati quae, nemo unde aliquam sint voluptatum illo excepturi blanditiis, quisquam tempore odit. Quis, dolor accusamus?
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab optio nam aut nobis voluptatibus ea natus perspiciatis dignissimos debitis nihil autem porro a similique accusantium facere reprehenderit culpa, in fugiat?
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim reprehenderit odio, ducimus tempore, magnam facilis tenetur labore hic obcaecati magni molestias veritatis architecto quo saepe minima cumque ad, atque amet?
-    <h2 id="habilidades">Habilidades</h2>
 
-    <ol>
-        <li id="negrito" class="tamanho">HTML</li>
-        <li>CSS</li>
-    </ol>
+      </div> <!--FIM DA DIV TOPO-->
 
-    <h2>Curiosidades</h2>
+      <div id="corpo"> <!--INICIO DA DIV CORPO-->
 
-    <p id="curiosidades">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad ducimus autem excepturi quo dolores hic cupiditate mollitia voluptas eum officia praesentium tempora nisi ex ipsam rem, sequi fugit vero est.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ipsa quo rem iusto. Quidem ut consequuntur dicta esse nostrum officiis numquam atque. Quibusdam maiores itaque sit. Eius adipisci dicta vel.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, iure quidem sed assumenda autem omnis similique accusamus aliquam mollitia non debitis minima molestias quasi hic ut sit esse nemo. Quis.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quibusdam quod facere maiores consequatur perferendis pariatur. Facilis aliquid iusto, quam dicta quos velit minus alias, at delectus nesciunt, deserunt in.
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis alias atque voluptates possimus dolorem corporis repellendus qui molestiae. Mollitia, reiciendis. Consectetur cum voluptatem quam aperiam quo iure tempore, perspiciatis ducimus.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quidem velit sapiente a blanditiis sint, est animi earum tenetur itaque eaque explicabo incidunt nemo ut quasi ipsum ipsa provident architecto.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptates enim facilis totam delectus vero possimus unde animi esse, eum laborum, quo eligendi aut facere distinctio autem dolorum suscipit! Reiciendis.
-    </p><br><br>
+        <h2>Índice</h2><br>
 
-    <div class="nome">
+        <ul>
+            <li><a href="#habilidades">Habilidades</a></li><br>
+            <li><a href="#curiosidades">Curiosidades</a></li>
+        </ul><br>
+
+        <h2>Habilidades</h2><br>
+
+        <ul>
+            <li id="negrito" class="tamanho">HTML</li><br>
+            <li>CSS</li>
+        </ul><br>
+
+        <h2>Curiosidades</h2><br>
+
+        <p id="curiosidades">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad ducimus autem excepturi quo dolores hic cupiditate mollitia voluptas eum officia praesentium tempora nisi ex ipsam rem, sequi fugit vero est.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ipsa quo rem iusto. Quidem ut consequuntur dicta esse nostrum officiis numquam atque. Quibusdam maiores itaque sit. Eius adipisci dicta vel.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, iure quidem sed assumenda autem omnis similique accusamus aliquam mollitia non debitis minima molestias quasi hic ut sit esse nemo. Quis.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quibusdam quod facere maiores consequatur perferendis pariatur. Facilis aliquid iusto, quam dicta quos velit minus alias, at delectus nesciunt, deserunt in.
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis alias atque voluptates possimus dolorem corporis repellendus qui molestiae. Mollitia, reiciendis. Consectetur cum voluptatem quam aperiam quo iure tempore, perspiciatis ducimus.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quidem velit sapiente a blanditiis sint, est animi earum tenetur itaque eaque explicabo incidunt nemo ut quasi ipsum ipsa provident architecto.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptates enim facilis totam delectus vero possimus unde animi esse, eum laborum, quo eligendi aut facere distinctio autem dolorum suscipit! Reiciendis.
+      </p><br><br>
+
+      <div class="centralizar">
         <a href="https://www.linkedin.com/in/yuri-queiroz-16b41111b/" target="_blank">
         <img class="fotosRedes" src="imagens/f705441ceeb70b9920ce6c37d80f5603-cone-redondo-distorcido-do-linkedin.png" alt="logo linkedin">
         </a>
@@ -102,6 +74,11 @@
         <img class="fotosRedes" src="imagens/logo_github_icon_143196.png" alt="logo do github">
         </a>
     </div>
+
+      </div> <!--FIM DA DIV CORPO-->
+
+    </div><!--FIM DA DIV PRINCIPAL-->
+    
         
   </body>
 </html>

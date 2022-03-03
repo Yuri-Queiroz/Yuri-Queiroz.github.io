@@ -1,0 +1,70 @@
+/* FOMATAÇÕES GERAIS */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: rebeccapurple;
+}
+
+/* TOPO */
+
+#minha-foto img{
+    width: 280px;
+    border-radius: 250px;
+    float: left;
+    padding: 10px;
+    background-color: rgb(183, 136, 230);
+}
+
+#bio{
+    float: left;
+    width: 1020px;
+    font-size: 2em;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+#limpar{
+    clear: both;
+}
+
+#corpo{
+    margin-top: 10px;
+    padding: 30px;
+}
+
+h1#topo-cabe{
+    text-align: center;
+    padding: 10px;
+}
+
+a:link, a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding-left: 20px;
+}
+
+.tamanho{
+    font-size: 2em;
+}
+
+#negrito{
+    font-weight: 900;
+}
+
+.fotosRedes{
+    width: 100px;
+}
+
+.centralizar{
+    text-align: center;
+}
